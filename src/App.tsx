@@ -1,10 +1,4 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-
-function App() {
+/*function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -117,6 +111,22 @@ function App() {
       <section id="spacer"></section>
     </>
   )
+}*/
+
+
+//export default App
+// src/App.tsx
+import { Board } from './components/Board';
+import { Header } from './components/Header';
+
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Board />
+    </>
+  );
 }
 
-export default App
+export default App;
